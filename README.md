@@ -64,7 +64,7 @@ using `carthage update` and drag `ZVAlertController.framework` into your project
 The framework is under the Carthage/Build, and you should drag it into  `Target` -> `Genral` -> `Embedded Binaries`
 
 ## Usage
-You can use `import ZVAlertController` when you needed to use `ZVAlertController`.
+You can use `import ZVAlertController` or `import AlertController` when you needed to use `ZVAlertController`.
 
 
 ### Showing a Alert
