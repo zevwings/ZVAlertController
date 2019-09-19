@@ -8,12 +8,62 @@
 
 /* Begin PBXBuildFile section */
 		4D1F60F12333190E007FD61D /* ZVAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D1F60EF2333190E007FD61D /* ZVAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D1F60FC2333198C007FD61D /* AlertPresentTrainsition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1F60FB2333198C007FD61D /* AlertPresentTrainsition.swift */; };
+		4D1F6102233319C1007FD61D /* AlertDismissTrainsition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1F6101233319C1007FD61D /* AlertDismissTrainsition.swift */; };
+		4D1F6104233319D8007FD61D /* AlertPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1F6103233319D8007FD61D /* AlertPresentationController.swift */; };
+		4D1F610923331B56007FD61D /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1F610723331B56007FD61D /* AlertController.swift */; };
+		4D1F610A23331B56007FD61D /* AlertController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D1F610823331B56007FD61D /* AlertController.xib */; };
+		4D1F611223331CF7007FD61D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1F611123331CF7007FD61D /* AppDelegate.swift */; };
+		4D1F611623331CF7007FD61D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1F611523331CF7007FD61D /* ViewController.swift */; };
+		4D1F611923331CF7007FD61D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1F611723331CF7007FD61D /* Main.storyboard */; };
+		4D1F611B23331CF9007FD61D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D1F611A23331CF9007FD61D /* Assets.xcassets */; };
+		4D1F611E23331CF9007FD61D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1F611C23331CF9007FD61D /* LaunchScreen.storyboard */; };
+		4D1F612423331D35007FD61D /* ZVAlertController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1F60EC2333190E007FD61D /* ZVAlertController.framework */; };
+		4D1F612523331D35007FD61D /* ZVAlertController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1F60EC2333190E007FD61D /* ZVAlertController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4D1F612A23331FC0007FD61D /* AlertController.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D1F612923331FC0007FD61D /* AlertController.xcassets */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D1F612623331D35007FD61D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D1F60E32333190E007FD61D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D1F60EB2333190E007FD61D;
+			remoteInfo = ZVAlertController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4D1F612823331D35007FD61D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4D1F612523331D35007FD61D /* ZVAlertController.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4D1F60EC2333190E007FD61D /* ZVAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZVAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D1F60EF2333190E007FD61D /* ZVAlertController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZVAlertController.h; sourceTree = "<group>"; };
 		4D1F60F02333190E007FD61D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D1F60FB2333198C007FD61D /* AlertPresentTrainsition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresentTrainsition.swift; sourceTree = "<group>"; };
+		4D1F6101233319C1007FD61D /* AlertDismissTrainsition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertDismissTrainsition.swift; sourceTree = "<group>"; };
+		4D1F6103233319D8007FD61D /* AlertPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresentationController.swift; sourceTree = "<group>"; };
+		4D1F610723331B56007FD61D /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		4D1F610823331B56007FD61D /* AlertController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertController.xib; sourceTree = "<group>"; };
+		4D1F610F23331CF7007FD61D /* ZVAlertControllerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZVAlertControllerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D1F611123331CF7007FD61D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D1F611523331CF7007FD61D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D1F611823331CF7007FD61D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D1F611A23331CF9007FD61D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D1F611D23331CF9007FD61D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D1F611F23331CF9007FD61D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D1F612923331FC0007FD61D /* AlertController.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AlertController.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +74,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4D1F610C23331CF7007FD61D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1F612423331D35007FD61D /* ZVAlertController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -31,7 +89,9 @@
 			isa = PBXGroup;
 			children = (
 				4D1F60EE2333190E007FD61D /* ZVAlertController */,
+				4D1F611023331CF7007FD61D /* ZVAlertControllerExample */,
 				4D1F60ED2333190E007FD61D /* Products */,
+				4D1F612323331D35007FD61D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -39,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				4D1F60EC2333190E007FD61D /* ZVAlertController.framework */,
+				4D1F610F23331CF7007FD61D /* ZVAlertControllerExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,8 +109,34 @@
 			children = (
 				4D1F60EF2333190E007FD61D /* ZVAlertController.h */,
 				4D1F60F02333190E007FD61D /* Info.plist */,
+				4D1F60FB2333198C007FD61D /* AlertPresentTrainsition.swift */,
+				4D1F6101233319C1007FD61D /* AlertDismissTrainsition.swift */,
+				4D1F6103233319D8007FD61D /* AlertPresentationController.swift */,
+				4D1F610723331B56007FD61D /* AlertController.swift */,
+				4D1F610823331B56007FD61D /* AlertController.xib */,
+				4D1F612923331FC0007FD61D /* AlertController.xcassets */,
 			);
 			path = ZVAlertController;
+			sourceTree = "<group>";
+		};
+		4D1F611023331CF7007FD61D /* ZVAlertControllerExample */ = {
+			isa = PBXGroup;
+			children = (
+				4D1F611123331CF7007FD61D /* AppDelegate.swift */,
+				4D1F611523331CF7007FD61D /* ViewController.swift */,
+				4D1F611723331CF7007FD61D /* Main.storyboard */,
+				4D1F611A23331CF9007FD61D /* Assets.xcassets */,
+				4D1F611C23331CF9007FD61D /* LaunchScreen.storyboard */,
+				4D1F611F23331CF9007FD61D /* Info.plist */,
+			);
+			path = ZVAlertControllerExample;
+			sourceTree = "<group>";
+		};
+		4D1F612323331D35007FD61D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,16 +171,40 @@
 			productReference = 4D1F60EC2333190E007FD61D /* ZVAlertController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		4D1F610E23331CF7007FD61D /* ZVAlertControllerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D1F612023331CF9007FD61D /* Build configuration list for PBXNativeTarget "ZVAlertControllerExample" */;
+			buildPhases = (
+				4D1F610B23331CF7007FD61D /* Sources */,
+				4D1F610C23331CF7007FD61D /* Frameworks */,
+				4D1F610D23331CF7007FD61D /* Resources */,
+				4D1F612823331D35007FD61D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D1F612723331D35007FD61D /* PBXTargetDependency */,
+			);
+			name = ZVAlertControllerExample;
+			productName = ZVAlertControllerExample;
+			productReference = 4D1F610F23331CF7007FD61D /* ZVAlertControllerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		4D1F60E32333190E007FD61D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = zevwings;
 				TargetAttributes = {
 					4D1F60EB2333190E007FD61D = {
+						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
+					};
+					4D1F610E23331CF7007FD61D = {
 						CreatedOnToolsVersion = 11.0;
 					};
 				};
@@ -112,6 +223,7 @@
 			projectRoot = "";
 			targets = (
 				4D1F60EB2333190E007FD61D /* ZVAlertController */,
+				4D1F610E23331CF7007FD61D /* ZVAlertControllerExample */,
 			);
 		};
 /* End PBXProject section */
@@ -121,6 +233,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D1F612A23331FC0007FD61D /* AlertController.xcassets in Resources */,
+				4D1F610A23331B56007FD61D /* AlertController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D1F610D23331CF7007FD61D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1F611E23331CF9007FD61D /* LaunchScreen.storyboard in Resources */,
+				4D1F611B23331CF9007FD61D /* Assets.xcassets in Resources */,
+				4D1F611923331CF7007FD61D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,10 +255,50 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D1F610923331B56007FD61D /* AlertController.swift in Sources */,
+				4D1F6102233319C1007FD61D /* AlertDismissTrainsition.swift in Sources */,
+				4D1F6104233319D8007FD61D /* AlertPresentationController.swift in Sources */,
+				4D1F60FC2333198C007FD61D /* AlertPresentTrainsition.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D1F610B23331CF7007FD61D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1F611623331CF7007FD61D /* ViewController.swift in Sources */,
+				4D1F611223331CF7007FD61D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D1F612723331D35007FD61D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D1F60EB2333190E007FD61D /* ZVAlertController */;
+			targetProxy = 4D1F612623331D35007FD61D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D1F611723331CF7007FD61D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D1F611823331CF7007FD61D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D1F611C23331CF9007FD61D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D1F611D23331CF9007FD61D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4D1F60F22333190E007FD61D /* Debug */ = {
@@ -260,6 +424,7 @@
 		4D1F60F52333190E007FD61D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = DDWF823A49;
@@ -268,6 +433,34 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = ZVAlertController/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zevwings.ZVAlertController;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D1F60F62333190E007FD61D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = DDWF823A49;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ZVAlertController/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -279,27 +472,41 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = Release;
 		};
-		4D1F60F62333190E007FD61D /* Release */ = {
+		4D1F612123331CF9007FD61D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = DDWF823A49;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ZVAlertController/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INFOPLIST_FILE = ZVAlertControllerExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zevwings.ZVAlertController;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zevwings.ZVAlertControllerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D1F612223331CF9007FD61D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DDWF823A49;
+				INFOPLIST_FILE = ZVAlertControllerExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zevwings.ZVAlertControllerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -322,6 +529,15 @@
 			buildConfigurations = (
 				4D1F60F52333190E007FD61D /* Debug */,
 				4D1F60F62333190E007FD61D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D1F612023331CF9007FD61D /* Build configuration list for PBXNativeTarget "ZVAlertControllerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D1F612123331CF9007FD61D /* Debug */,
+				4D1F612223331CF9007FD61D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
