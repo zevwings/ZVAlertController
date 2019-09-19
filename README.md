@@ -79,7 +79,7 @@ present(alertController, animated: true, completion: nil)
 you can add alert action use:
 
 ```swift
-alertController.addAction(WSAlertAction(title: "confirm", style: .default, handler: { _ in
+alertController.addAction(AlertAction(title: "confirm", style: .default, handler: { _ in
     print("comfirm action")
 }))
 ```
@@ -129,7 +129,8 @@ public var messageFont: UIFont = .systemFont(ofSize: 14.0)
 alertController.presentStyle = .fadeIn
 alertController.dismissStyle = .fadeOut
 ```
-More animation you can find in the [Exmaple](https://github.com/zevwings/ZVAlertController/blob/master/ZVAlertControllerExample/ViewController.swift)
+
+More usage you can find in the [Exmaple](https://github.com/zevwings/ZVAlertController/blob/master/ZVAlertControllerExample/ViewController.swift)
 
 # License
-`WSAlertAction` distributed under the terms and conditions of the [Apache License](https://github.com/zevwings/ZVAlertController/blob/master/LICENSE)
+`ZVAlertController` distributed under the terms and conditions of the [Apache License](https://github.com/zevwings/ZVAlertController/blob/master/LICENSE)
