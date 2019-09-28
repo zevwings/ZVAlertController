@@ -10,9 +10,9 @@ Pod::Spec.new do |s|
 
   s.name              = "ZVAlertController"
   s.module_name       = "AlertController"
-  s.version           = "0.0.1-alpha.1"
+  s.version           = "0.0.3"
   s.summary           = "A pure swift alert"
-  s.swift_version     = '5.0'
+  s.swift_version     = '5.1'
 
   s.description  = <<-DESC
                    ZVAlertController is a custom swift alert controller
