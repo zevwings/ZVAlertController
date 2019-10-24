@@ -9,8 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name              = "ZVAlertController"
-  s.module_name       = "AlertController"
-  s.version           = "0.0.3"
+  s.version           = "0.0.4"
   s.summary           = "A pure swift alert"
   s.swift_version     = '5.1'
 
