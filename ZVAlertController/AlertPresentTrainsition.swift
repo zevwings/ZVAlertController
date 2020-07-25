@@ -6,6 +6,8 @@
 //  Copyright © 2019 zevwings. All rights reserved.
 //
 
+#if !os(macOS)
+
 import UIKit
 
 public enum AlertPresentStyle {
@@ -270,3 +272,4 @@ final class AlertPresentTrainsition: NSObject, UIViewControllerAnimatedTransitio
     }
 }
 
+#endif

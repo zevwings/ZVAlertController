@@ -6,6 +6,8 @@
 //  Copyright © 2019 zevwings. All rights reserved.
 //
 
+#if !os(macOS)
+
 import UIKit
 
 class AlertPresentationController: UIPresentationController {
@@ -74,3 +76,5 @@ class AlertPresentationController: UIPresentationController {
         }
     }
 }
+
+#endif

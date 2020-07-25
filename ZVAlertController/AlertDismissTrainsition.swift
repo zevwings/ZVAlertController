@@ -6,6 +6,8 @@
 //  Copyright © 2019 zevwings. All rights reserved.
 //
 
+#if !os(macOS)
+
 import UIKit
 
 public enum AlertDismissStyle {
@@ -151,3 +153,5 @@ final class AlertDismissTrainsition: NSObject, UIViewControllerAnimatedTransitio
         })
     }
 }
+
+#endif

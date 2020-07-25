@@ -6,6 +6,8 @@
 //  Copyright © 2019 zevwings. All rights reserved.
 //
 
+#if !os(macOS)
+
 import UIKit
 
 open class AlertAction: NSObject, NSCopying {
@@ -367,3 +369,5 @@ extension AlertController : UIViewControllerTransitioningDelegate {
         return AlertPresentationController(presentedViewController: presented, presenting: presenting)
     }
 }
+
+#endif
